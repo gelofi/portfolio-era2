@@ -12,7 +12,7 @@ function Projects() {
 
         <ProjectCards /* Funkn's Card */
         proj="Funkn"
-        desc="A freemium Discord music bot. Deprecated."
+        desc="A freemium Discord music bot made in JavaScript."
         src={funknIcon} 
         link="https://funkn.glitch.me/"
         alt="Funkn"
