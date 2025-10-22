@@ -25,16 +25,16 @@ function Hero() {
         <div className={styles.colorModeContainer}>
             <img className={styles.hero}
                 src={gelofi}
-                alt="Gelofi PFP"/>
+                alt="Gelofi"/>
             <img className={styles.colorMode}
                 src={themeIcon}
-                alt="Color Mode"
+                alt="Theme"
                 title='Switch Themes'
                 onClick={toggleTheme}/>
         </div>
         <div className={styles.info}>
             <h2 className={styles.intro}>Hello, I am</h2>
-            <h1>Carl Angelo</h1>
+            <h1>Angelo</h1>
             <h2 className={styles.alias}>or you can call me Gelo.</h2>
             <span>
                 <a href="https://facebook.com/fbnielo" target='_blank'>
@@ -47,7 +47,7 @@ function Hero() {
                     <img src={instagramIcon} alt='Instagram'></img>
                 </a>
             </span>
-            <p className={styles.description}>I am a BS in Information Technology student from Bulacan State University - SC. I do designing and programming as hobbies and want to make it my profession someday!</p>
+            <p className={styles.description}>I am a BS in Information Technology student from Bulacan State University - SC. I do programming, designing, and art.</p>
             <a href={CV} download>
             <button className='hover'>Resume</button></a>
         </div>
