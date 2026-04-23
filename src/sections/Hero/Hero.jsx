@@ -9,7 +9,6 @@ import ghdark from '../../assets/gh-dark.svg';
 import iglight from '../../assets/ig-light.svg';
 import igdark from '../../assets/ig-dark.svg';
 
-import CV from "../../assets/cv.pdf";
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
