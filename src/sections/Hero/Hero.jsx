@@ -48,8 +48,6 @@ function Hero() {
                 </a>
             </span>
             <p className={styles.description}>I am a BS in Information Technology student from Bulacan State University - SC. I do programming, designing, and art.</p>
-            <a href={CV} download>
-            <button className='hover'>Resume</button></a>
         </div>
     </section>
   );
